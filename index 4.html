@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NMD580 금속검출기</title>
+
+  <!-- Google Analytics 4 연결 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9RVHHZ510L"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-9RVHHZ510L');
+  </script>
+
+  <!-- Bulma CSS (심플 스타일 프레임워크) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: #f4faff;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+      overflow-x: hidden;
+    }
+    .box {
+      text-align: center;
+      padding: 2.5rem 2rem;
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      max-width: 90vw;
+    }
+    h1 {
+      margin: 1.2rem 0 1.5rem;
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
+    .logo {
+      width: 180px;
+      height: auto;
+    }
+    .button.is-large {
+      width: 100%;
+      margin-top: 1rem;
+    }
+    @media(min-width: 768px){
+      .box { width: 400px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <!-- 회사 로고 -->
+    <img src="logo.png" alt="나우시스템즈 로고" class="logo">
+
+    <h1>NMD580 금속검출기</h1>
+
+    <!-- ▶ 버튼 1: 사용법 영상 -->
+    <a id="btnVideo" href="https://www.youtube.com/playlist?list=PL-caeEuZY1I4_R3K2I7R0lYp0F7l5OF4w" class="button is-link is-large" target="_blank" rel="noopener noreferrer">
+      📹 사용법 영상 보기
+    </a>
+
+    <!-- ▼ 버튼 2: 매뉴얼 다운로드 -->
+    <a id="btnManual" href="https://nowsys.kr/customer_support/국문-매뉴얼-금속검출기-nmd580-series/?page=2" class="button is-primary is-large" target="_blank" rel="noopener noreferrer">
+      ⬇️ 매뉴얼 다운로드
+    </a>
+
+    <!-- ☎ 버튼 3: 고객문의 -->
+    <a id="btnContact" href="https://nowsys.kr/inquiry/write" class="button is-warning is-large" target="_blank" rel="noopener noreferrer">
+      ☎️ 고객문의
+    </a>
+
+    <!-- 📄 버튼 4: 서류 검교정 -->
+    <a id="btnDocs" href="https://nowsys.kr/customer_support/질의서-서류-점검-확인서-발행-요청/" class="button is-info is-large" target="_blank" rel="noopener noreferrer">
+      📄 서류 검교정
+    </a>
+  </div>
+</body>
+</html>
